@@ -20,7 +20,7 @@ async function handleSearchCep(){
         <h2 class="my-4 mx-0 text-[39px]">CEP: ${response.data.cep}</h2>
 
         <span class="mb-4 font-bold">${response.data.logradouro}</span>
-        <span class="mb-4 font-bold">Comlemento: ${response.data.complemento}</span>
+        <span class="mb-4 font-bold">Complemento: ${response.data.complemento}</span>
         <span class="mb-4 font-bold">${response.data.bairro}</span>
         <span class="mb-4 font-bold">${response.data.localidade} - ${response.data.uf}</span>
         `
